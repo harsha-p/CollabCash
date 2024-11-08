@@ -1,0 +1,122 @@
+/* RightComponent.css */
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --white-color: #ffffff;
+    --gray-color: #6c757d;
+    --gray-dark-color: #343a40;
+    --background-gradient: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  }
+  
+  .right-container {
+    padding: 1rem;
+    background: var(--background-gradient);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: var(--white-color);
+  }
+  
+  .right-title {
+    color: var(--white-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .right-part-member {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.6rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+  }
+  
+  .right-part-member img {
+    width: 3rem;
+    border-radius: 50%;
+  }
+  
+  
+  
+  .member-data .text-danger {
+    color: var(--danger-color);
+  }
+  
+  .member-data .text-success {
+    color: var(--success-color);
+  }
+  
+  .right-component-friend {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .right-component-friend h6 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  
+  .right-component-friend strong {
+    font-size: 2rem;
+  }
+  
+  .right-textContainer {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
+  
+  /* .right-textContainer p {
+    color: var(--white-color);
+  } */
+  
+  .social {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .social button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--white-color);
+  }
+  
+  .social .facebook {
+    background-color: #3b5998;
+  }
+  
+  .social .tweet {
+    background-color: #4099ff;
+  }
+  
+  .social img {
+    width: 1.5rem;
+  }
+  
+  .owes-money {
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+  
+  .no-owes-money {
+    background-color: rgba(0, 255, 0, 0.2);
+  }

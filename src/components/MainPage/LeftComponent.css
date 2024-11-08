@@ -1,0 +1,82 @@
+/* LeftComponent.css */
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --white-color: #ffffff;
+    --gray-color: #6c757d;
+    --gray-dark-color: #343a40;
+  }
+  
+  .right-container {
+    padding: 1rem;
+    background-color: var(--light-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expenses {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: var(--white-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expenses i {
+    color: var(--primary-color);
+  }
+  
+  .expenses p {
+    margin: 0;
+    font-weight: bold;
+    color: var(--dark-color);
+  }
+  
+  .group {
+    margin-top: 1rem;
+  }
+  
+  .sec-type p {
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  .sec-text-area {
+    background-color: var(--white-color);
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sec-text-area .group-item,
+  .sec-text-area .friend-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--light-color);
+  }
+  
+  .sec-text-area .group-item:last-child,
+  .sec-text-area .friend-item:last-child {
+    border-bottom: none;
+  }
+  
+  .sec-text-area .group-item:hover,
+  .sec-text-area .friend-item:hover {
+    background-color: var(--light-color);
+    cursor: pointer;
+  }
+  
+  .friends:hover,
+  .group:hover {
+    background-color: var(--light-color);
+    cursor: pointer;
+  }
